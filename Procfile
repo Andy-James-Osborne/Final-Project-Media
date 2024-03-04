@@ -1,1 +1,1 @@
-web: gunicorn SocialMedia.wsgi
+web: gunicorn TrackerApp.wsgi

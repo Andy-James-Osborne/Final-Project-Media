@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-andyjamesos-finalprojec-p9247ks3ozs.ws-eu108.gitpod.io', '.herokuapp.com']
+ALLOWED_HOSTS = ['', '.herokuapp.com']
 
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'SocialMedia.urls'
+ROOT_URLCONF = 'TrackerApp.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'SocialMedia.wsgi.application'
+WSGI_APPLICATION = 'TrackerApp.wsgi.application'
 
 
 # Database
